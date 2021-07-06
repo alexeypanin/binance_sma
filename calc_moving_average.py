@@ -29,8 +29,8 @@ class CalcMovingAverage:
     def __fetch_candles(self):
         """ fetching binance candles and return table of closing values and time"""
         try:
-            candles = self.api_client.get_klines(symbol = self.ticker,
-                                                 interval = self.CANDLE_INTERVAL)
+            candles = self.api_client.get_klines(symbol=self.ticker,
+                                                 interval=self.CANDLE_INTERVAL)
 
             values = [float(c[self.CLOSED_VALUE_INDEX]) for c in candles]
 
