@@ -3,8 +3,8 @@ import datetime as dt
 from binance.client import Client
 
 class CalcMovingAverage:
-    API_KEY  = 'rMtSznZGSwqA4yuazJBlb1iQCLFjHpWr5Enzr4hcVkT248vP7kDXYxPcww9CEC1x'
-    API_SECRET = 'i7bVvkw8cR0O2AM5RUoGJNdrJccOX2ljdTkxcYihjDxc9cLA8X0UAhaT9rFgPQbv'
+    API_KEY  = '5FEEixI9YroN7pcXlE4DuaXSPzJBKTaq7zWIq8lAncHSsIEfOaWHkqPhQbinPTut'
+    API_SECRET = 'nJHVbBf6OB09Luu3fHklhbsLpDvG456AQwmcMmqSsDfslwzIow8KRe4CjYNMLjiI'
 
     CANDLE_INTERVAL = '1m'
     CLOSED_VALUE_INDEX = 4 
