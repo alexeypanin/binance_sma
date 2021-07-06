@@ -4,8 +4,7 @@ ADD calc.py /
 ADD calc_moving_average.py /
 ADD test_calc_moving_average.py /
 
-RUN pip install pandas
-RUN pip install python-binance
+RUN pip install pandas python-binance
 
 CMD [ "python", "./calc.py" ]
 
